@@ -1,23 +1,27 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const user = "kevyyar";
+  const auth = true;
+  const favSports = ["soccer", "football", "basketball", "f1"];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*  Short Circuit Operator */}
+      <h1>{auth && user}</h1>
+      <ol>
+        {/*  loop through arrays and render content */}
+        {favSports.map((sport, index) => (
+          <li key={index}>{sport}</li>
+        ))}
+      </ol>
+      {/*  self closing tags*/}
+      <img
+        src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        alt="react snippet"
+        width="300px"
+      />
     </div>
   );
 }
