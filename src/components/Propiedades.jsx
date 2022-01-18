@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Propiedades(props) {
   return (
@@ -22,4 +23,14 @@ export default function Propiedades(props) {
 // define default prop types
 Propiedades.defaultProps = {
   defaultProp: "Prop por defecto",
+};
+
+// define Types for Props
+Propiedades.propTypes = {
+  string: PropTypes.string,
+  boolean: PropTypes.bool,
+  array: PropTypes.array,
+  object: PropTypes.object,
+  function: PropTypes.func,
+  reactComponent: PropTypes.element,
 };
