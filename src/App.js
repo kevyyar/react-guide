@@ -7,6 +7,7 @@ import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import EventosES6 from "./components/EventosES6";
+import EventosES7 from "./components/EventosES7";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <hr />
       <EventosES6 />
       <hr />
+      <EventosES7 />
     </div>
   );
 }
