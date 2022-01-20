@@ -11,7 +11,8 @@ import EventosES7 from "./components/EventosES7";
 import MoreEvents from "./components/MoreEvents";
 import Parent from "./components/ComunicacionComponente";
 import CicloDeVida from "./components/CicloDeVida";
-import AjaxApis from './components/AjaxApis'
+import AjaxApis from "./components/AjaxApis";
+import UseStateHook from "./components/useStateHook";
 
 function App() {
   return (
@@ -41,14 +42,15 @@ function App() {
       <Parent />
       <hr />
       <CicloDeVida />
-      <hr/>
-      <AjaxApis />
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
+      <hr />
+      {/* <AjaxApis /> */}
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <UseStateHook title="Followers" />
     </div>
   );
 }
