@@ -13,6 +13,7 @@ import Parent from "./components/ComunicacionComponente";
 import CicloDeVida from "./components/CicloDeVida";
 import AjaxApis from "./components/AjaxApis";
 import UseStateHook from "./components/useStateHook";
+import UseEffectHook from "./components/useEffectHook";
 
 function App() {
   return (
@@ -26,31 +27,46 @@ function App() {
         function={(num) => num * num}
         reactComponent={<Componente msg="im a component passed as a prop" />}
       />
-      <hr />
+      <br />
       <Estado />
-      <hr />
+      <br />
       <RenderizadoCondicional />
-      <hr />
+      <br />
       <RenderizadoElementos />
-      <hr />
+      <br />
       <EventosES6 />
-      <hr />
+      <br />
       <EventosES7 />
-      <hr />
+      <br />
       <MoreEvents />
-      <hr />
+      <br />
       <Parent />
-      <hr />
+      <br />
       <CicloDeVida />
-      <hr />
+      <br />
       {/* <AjaxApis /> */}
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <UseStateHook title="Followers" />
+      <br />
+      <UseEffectHook />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
