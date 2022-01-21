@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
@@ -14,6 +15,7 @@ import CicloDeVida from "./components/CicloDeVida";
 import AjaxApis from "./components/AjaxApis";
 import UseStateHook from "./components/useStateHook";
 import UseEffectHook from "./components/useEffectHook";
+import FetchAPI from "./components/exercises/fetchAPI";
 
 function App() {
   return (
@@ -67,6 +69,7 @@ function App() {
       <br />
       <br />
       <br />
+      <FetchAPI />
     </div>
   );
 }
