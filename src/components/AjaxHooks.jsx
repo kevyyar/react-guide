@@ -78,7 +78,9 @@ const AjaxHooks = (props) => {
       {pokemons.length === 0 ? (
         <h3>Loading...</h3>
       ) : (
-        pokemons.map((el) => <Pokemon name={el.name} avatar={el.avatar} />)
+        pokemons.map((el) => (
+          <Pokemon key={el.id} name={el.name} avatar={el.avatar} />
+        ))
       )}
     </div>
   );

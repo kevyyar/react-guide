@@ -19,6 +19,7 @@ import FetchAPI from "./components/exercises/fetchAPI";
 import HookClock from "./components/HookClock";
 import AjaxHooks from "./components/AjaxHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
       <HookClock />
       <AjaxHooks />
       <HooksPersonalizados />
+      <Referencias />
     </div>
   );
 }
