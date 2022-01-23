@@ -17,6 +17,7 @@ import UseStateHook from "./components/useStateHook";
 import UseEffectHook from "./components/useEffectHook";
 import FetchAPI from "./components/exercises/fetchAPI";
 import HookClock from "./components/HookClock";
+import AjaxHooks from "./components/AjaxHooks";
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
       <br />
       <FetchAPI />
       <HookClock />
+      <AjaxHooks />
     </div>
   );
 }
