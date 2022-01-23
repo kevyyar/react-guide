@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b70fcac4-5c15-4677-b23e-e3f8005f2b58" name="Changes" comment="" />
+    <list default="true" id="b70fcac4-5c15-4677-b23e-e3f8005f2b58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ClockWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +71,7 @@
       <workItem from="1642687928608" duration="5771000" />
       <workItem from="1642709859221" duration="1382000" />
       <workItem from="1642711252893" duration="47000" />
+      <workItem from="1642785253812" duration="2958000" />
     </task>
     <servers />
   </component>
