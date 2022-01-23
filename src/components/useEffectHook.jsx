@@ -14,13 +14,13 @@ export default function UseEffectHook() {
 
   // effect changes at initial render on the DOM. You can call on endpoints by passing an empty arr
   useEffect(() => {
-    console.log("Mounting Phase (componentDidMount)");
+    // console.log("Mounting Phase (componentDidMount)");
   }, []);
 
   // unmount the component and unsubscribe from events, cleanup intervals, etc... (using same scroll effect as above)
   useEffect(() => {
-    console.log("Updating Phase (componentDidUpdate)");
-    console.log("Scroll is moving!");
+    // console.log("Updating Phase (componentDidUpdate)");
+    // console.log("Scroll is moving!");
     const detectScrollHandler = () => setScrollY(window.pageYOffset);
 
     window.addEventListener("scroll", detectScrollHandler);
