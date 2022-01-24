@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Formularios = () => {
   const [enteredName, setEnteredName] = useState("");
   const [jsFlavor, setJSFlavor] = useState("");
+  const [lang, setLang] = useState("");
 
   return (
     <div>
@@ -33,6 +34,7 @@ const Formularios = () => {
         name="jsFlavor"
         id="reactjs"
         value="reactjs"
+        defaultChecked
         onChange={(e) => setJSFlavor(e.target.value)}
       />
       <label htmlFor="reactjs">React JS</label>
@@ -52,6 +54,20 @@ const Formularios = () => {
         onChange={(e) => setJSFlavor(e.target.value)}
       />
       <label htmlFor="vanillaJS">VueJS</label>
+      {/* --------- SELECT------------ */}
+      <p>Select your favorite programming language</p>
+      <select
+        name="language"
+        onChange={(e) => setLang(e.target.value)}
+        defaultValue=""
+      >
+        <option value="">-----</option>
+        <option value="js">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="python">Python</option>
+        <option value="rust">Rust</option>
+        <option value="go">Go</option>
+      </select>
     </div>
   );
 };
