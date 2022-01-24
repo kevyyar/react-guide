@@ -4,12 +4,17 @@ const Formularios = () => {
   const [enteredName, setEnteredName] = useState("");
   const [jsFlavor, setJSFlavor] = useState("");
   const [lang, setLang] = useState("");
-  const [tems, setTerms] = useState(false);
+  const [terms, setTerms] = useState(false);
 
+  // submit form handler func
+  const submitFormHandler = (e) => {
+    e.preventDefault();
+    alert("Form has been sent");
+  };
   return (
     <div>
       <h1>Forms in React</h1>
-      <form>
+      <form onSubmit={submitFormHandler}>
         {/* --------- INPUTS ------------ */}
         <label htmlFor="name">Name</label>
         <input
@@ -77,6 +82,8 @@ const Formularios = () => {
           name="terms"
           onChange={(e) => setTerms(e.target.checked)}
         />
+        <br />
+        <button type="submit">Send Information</button>
       </form>
     </div>
   );
